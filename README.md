@@ -1,7 +1,7 @@
 # mongoose-crud
 CRUD with Mongoose ODM
 
-### Book CRUD
+### Book CRUD  
 List of books routes:
 
 |           Route         |  HTTP  |             Description               |
@@ -12,12 +12,12 @@ List of books routes:
 | /books/:id              | DELETE | Delete a books                        |
 | /books/:id              | PUT    | Update a books with new data          |
 
-### Usage
+### Usage  
 ```
 Access API `http://localhost:3000/books`
 ```
 
-### Customer CRUD
+### Customer CRUD  
 List of customers routes:
 
 |           Route         |  HTTP  |             Description               |
@@ -28,12 +28,12 @@ List of customers routes:
 | /customers/:id          | DELETE | Delete a customers                    |
 | /customers/:id          | PUT    | Update a customers with new data      |
 
-## Usage
+### Usage  
 ```
 Access API `http://localhost:3000/customers`
 ```
 
-### Transaction CRUD
+### Transaction CRUD  
 List of transaction routes:
 
 |           Route         |  HTTP  |             Description               |
@@ -42,7 +42,7 @@ List of transaction routes:
 | /transactions/          | POST   | Create a transactions                 |
 | /transactions/:id       | PUT    | Update a transactions for return book |
 
-### Usage
+### Usage  
 ```
 Access API `http://localhost:3000/transactions`
 ```
