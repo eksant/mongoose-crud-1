@@ -14,5 +14,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/api/books', require('./routes/books'));
 app.use('/api/customers', require('./routes/customers'));
+app.use('/api/transactions', require('./routes/transactions'));
 
 module.exports = app;
